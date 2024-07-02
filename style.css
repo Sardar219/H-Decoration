@@ -4,7 +4,7 @@
   font-family: "Poppins";
   box-sizing: border-box;
 }
-/* ---------------- Header ---------------- */
+/* ---------------- Navbar ---------------- */
 #header {
   background-color: #eee;
   position: sticky;
@@ -51,6 +51,7 @@
 #body {
   padding: 30px 100px;
 }
+/* ------------ Section1 ----------- */
 .section1 .row .col-12 {
   padding: 8px;
   overflow: hidden;
@@ -82,4 +83,41 @@
 }
 .section1 .row .col-12 .image-text p span {
   font-size: 13px;
+}
+
+/* ------------ Section2 ----------- */
+.section2 .part2 {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .part2 .title {
+  font-size: 55px;
+  font-family: cursive;
+}
+.section2 .part2 .content {
+  width: 60%;
+  text-align: center;
+  padding: 20px 0 40px;
+}
+.section2 .part2 .content2,
+.section2 .part2 .content2 .image-content,
+.section2 .part2 .content2 .image-content div {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.section2 .part2 .content2 .image-content {
+  background-image: url(images/about-banner.jpg);
+}
+.section2 .part2 .content2:hover .image-content {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.section2 .part2 .content2:hover .image-content div {
+  animation-name: anim1;
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.261);
 }
