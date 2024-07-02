@@ -7,12 +7,70 @@
     <title>Hussaini Decoration</title>
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="../fontawasome/css/all.css" />
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
-    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <script src="script.js"></script>
+    <!-- fontAwasome offline -->
+    <link rel="stylesheet" href="fontawasome/css/all.css" />
+
+    <!-- fontAwasome online -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Bootstrap.min.css offline -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+    <!-- Bootstrap.min.css online -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap.bundle.min.js offline -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap.bundle.min.js online -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <body>
-      <span class="fa fa-home"></span>
+      <!------------- Navbar -------------->
+      <div class="container-fluid" id="header">
+        <div class="container">
+          <nav class="navbar navbar-expand-md">
+            <a href="index.html" class="navbar-brand nav-link">H.Decoration</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mynavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link"
+                    ><span class="fa fa-heart"></span
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-shopping"
+                    ><span class="fa fa-heart"></span
+                  ></a>
+                </li>
+              </ul>
+              <form action="" class="d-flex">
+                <input
+                  type="text"
+                  class="form-control me-1"
+                  placeholder="Search"
+                />
+                <button class="btn" type="button">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
     </body>
   </head>
 </html>
