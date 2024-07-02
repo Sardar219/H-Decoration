@@ -44,3 +44,17 @@ function able() {
     bg_i.style.backgroundImage = `url(images/product-${i}.jpg)`;
   }
 }
+var count1 = 0;
+var count2 = 0;
+var shop = document.getElementById("countershopping");
+var bag = document.getElementById("bag");
+var likes = document.getElementById("counter_like");
+function countshopping() {
+  count1++;
+  shop.textContent = count1;
+  bag.style.color = "rgb(215,126,67)";
+}
+function countlike() {
+  count2++;
+  like.textContent = count2;
+}
