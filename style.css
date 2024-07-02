@@ -4,3 +4,45 @@
   font-family: "Poppins";
   box-sizing: border-box;
 }
+/* ---------------- Header ---------------- */
+#header {
+  background-color: #eee;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+#header .container {
+  padding: 10px 100px;
+}
+#logo.navbar-brand {
+  font-family: fantasy;
+  color: rgb(215, 126, 67);
+  font-size: 22px;
+  opacity: 0.8;
+}
+.navbar-toggler {
+  background-color: rgba(215, 126, 67) !important;
+  opacity: 0.8;
+}
+.nav-link .fa {
+  font-size: 22px;
+  margin: 0 3px;
+  color: rgba(215, 126, 67);
+  opacity: 0.8;
+}
+.nav-link .fa sup {
+  color: #777;
+}
+.navbar-collapse .btn {
+  background-color: rgba(215, 126, 67);
+  opacity: 0.8;
+}
+.navbar-collapse .btn:hover {
+  background-color: rgba(215, 126, 67);
+  opacity: 1;
+}
+.navbar-toggler:hover,
+.nav-link .fa:hover,
+#logo.navbar-brand:hover {
+  opacity: 1;
+}
