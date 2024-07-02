@@ -21,4 +21,26 @@ function able() {
     "Wooden Cups",
   ];
   let row = document.querySelector("#box-2");
+  for (let i = 1; i <= 19; i++) {
+    let random = Math.floor(Math.random() * 100) + 20;
+    let item = document.createElement("div");
+    item.className = "col-lg-3 col-6";
+    item.innerHTML = `
+    <div class=bg${i}>
+      <div>
+      <ul>
+      <li><span class="fa fa-shopping-bag" obclick="countshopping()" id="bag"></span></li>
+      <li><span class="fa fa-heart" onclick="countlike()"></span></li>
+          <li><a href="#"><span class="fab fa-facebook-square" id="facebook"></span></a></li>
+          <li><a href="#"><span class="fab fa-instagram" id="instagram"></span></a></li>
+          <li><a href="#"><span class="fab fa-whatsapp" id="whatsapp"></span></a></li>
+       </ul>
+      </div>
+  </div>
+  <a href="#">${text[i - 1]}</a>
+  <p>$${random}</p>`;
+    row.appendChild(item);
+    let bg_i = document.querySelector(`.bg${i}`);
+    bg_i.style.backgroundImage = `url(images/product-${i}.jpg)`;
+  }
 }
