@@ -46,3 +46,40 @@
 #logo.navbar-brand:hover {
   opacity: 1;
 }
+
+/* ---------------- Body ---------------- */
+#body {
+  padding: 30px 100px;
+}
+.section1 .row .col-12 {
+  padding: 8px;
+  overflow: hidden;
+  margin: 0;
+}
+.section1 .row .col-12 .image-box {
+  overflow: hidden;
+}
+.section1 .row div .image-box:hover img {
+  transform: scale(1.07);
+  transition: 0.5s;
+  z-index: 1;
+}
+.section1 .row .col-12 .image-text {
+  position: relative;
+  top: 70px;
+  left: 20px;
+  z-index: 2;
+}
+.section1 .row .col-12 .image-text a {
+  text-decoration: none;
+  font-size: 22px;
+  color: inherit;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.section1 .row .col-12 .image-text a:hover {
+  color: rgba(215, 126, 67);
+}
+.section1 .row .col-12 .image-text p span {
+  font-size: 13px;
+}
