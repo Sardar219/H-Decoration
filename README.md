@@ -17,7 +17,7 @@ Welcome to the Hossaini Decoration repository. This project focuses on providing
 - Bootstrap
 - JavaScript
 
-[Live Demo](https://sardar219.github.io/H-Decoration/)
+<b>[Live Demo](https://sardar219.github.io/H-Decoration/)</b>
 
 ## My Contact
 
