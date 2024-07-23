@@ -29,8 +29,8 @@ function able() {
     <div class=bg${i}>
       <div>
       <ul>
-      <li><span class="fa fa-shopping-bag" obclick="countshopping()" id="bag"></span></li>
-      <li><span class="fa fa-heart" onclick="countlike()"></span></li>
+      <li><span class="fa fa-shopping-bag" id="bagIcon" onclick="countShopping()"></span></li>
+      <li><span class="fa fa-heart" id="heart" onclick="countlike()"></span></li>
           <li><a href="#"><span class="fab fa-facebook-square" id="facebook"></span></a></li>
           <li><a href="#"><span class="fab fa-instagram" id="instagram"></span></a></li>
           <li><a href="#"><span class="fab fa-whatsapp" id="whatsapp"></span></a></li>
@@ -46,15 +46,16 @@ function able() {
 }
 var count1 = 0;
 var count2 = 0;
-var shop = document.getElementById("countershopping");
-var bag = document.getElementById("bag");
-var likes = document.getElementById("counter_like");
-function countshopping() {
+var shop = document.querySelector("#countershopping");
+var bag = document.querySelector("#bagIcon");
+var likes = document.querySelector("#counter_like");
+var heart = document.querySelector("#heart");
+alert(bag.textContent);
+function countShopping() {
   count1++;
   shop.textContent = count1;
-  bag.style.color = "rgb(215,126,67)";
 }
 function countlike() {
   count2++;
-  like.textContent = count2;
+  likes.textContent = count2;
 }
