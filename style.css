@@ -257,7 +257,7 @@
   border-radius: 50%;
 }
 #part1-footer a img:hover {
-  background-color: gold;
+  background-color: rgba(215, 126, 67);
 }
 #part1-footer h6 {
   margin-top: 16px;
@@ -270,7 +270,7 @@
   margin-bottom: 15px;
 }
 #part1-footer a span:hover {
-  color: gold;
+  color: rgba(215, 126, 67);
 }
 #sub-footer #sub1 h4,
 #sub-footer #sub3 h4 {
@@ -292,7 +292,7 @@
   text-decoration: none;
 }
 #sub-footer #sub1 ul li a:hover {
-  color: gold;
+  color: rgba(215, 126, 67);
 }
 #sub-footer #sub3 ul li p span {
   font-size: 17px;
@@ -300,7 +300,7 @@
 }
 #sub-footer #sub3 ul li p:hover span,
 #sub-footer #sub3 ul li p:hover span a {
-  color: gold;
+  color: rgba(215, 126, 67);
 }
 #sub-footer #sub3 ul li p span a {
   text-decoration: none;
@@ -313,7 +313,7 @@
   justify-content: space-between;
 }
 #autor:hover {
-  color: gold;
+  color: rgba(215, 126, 67);
 }
 @media (max-width: 1178px) {
 }
