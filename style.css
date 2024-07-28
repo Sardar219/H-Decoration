@@ -33,6 +33,9 @@
 .nav-link .fa sup {
   color: #777;
 }
+.navbar-nav .item a:hover {
+  color: rgba(215, 126, 67) !important;
+}
 .navbar-collapse .btn {
   background-color: rgba(215, 126, 67);
   opacity: 0.8;
