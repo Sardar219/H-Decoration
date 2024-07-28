@@ -36,6 +36,9 @@
 .navbar-nav .item a:hover {
   color: rgba(215, 126, 67) !important;
 }
+.active {
+  color: rgba(215, 126, 67) !important;
+}
 .navbar-collapse .btn {
   background-color: rgba(215, 126, 67);
   opacity: 0.8;
